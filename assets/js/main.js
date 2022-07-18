@@ -1,16 +1,15 @@
 console.log('it works')
-
+//---------------------------Lev1_1---------------------------
 let a = 1+3
 
 console.log('Hello World')
 
-function intro(){
-    console.log('1 + 3 = '+a)
+function intro(){   // ?????
+    console.log('1 + 3 = ' + a) 
 }
 intro()
 
 //---------------------------Lev1_2---------------------------
-
 function intro2(paraName)
 {
     let varName = 'SuperCoder'
@@ -21,9 +20,7 @@ let name = 'Siva'
 
 intro2(name)
 
-
 //---------------------------Lev1_3-------------------------
-
 function intro3(name, city, age){
     console.log('Hallo ich heiße ' + name + ', ich komme aus ' + city + ' und bin ' + age + ' Jahre alt')
 }
@@ -36,7 +33,6 @@ intro3(myName, myCity, myAge)
 
 
 //---------------------------Lev1_5-------------------------
-
 let numberA = 10
 let numberB = 2
 
@@ -45,11 +41,9 @@ function math(a,b){
     console.log(a + ' / '+ b + '= '+ a/b)
 }
 
-
 numberA = 30
 numberB = 20
 math(numberA, numberB)
-
 
 numberA = 100
 numberB = 100
