@@ -39,6 +39,9 @@ let numberB = 2
 function math(a,b){
     console.log(a + ' * '+ b + '= '+ a*b)
     console.log(a + ' / '+ b + '= '+ a/b)
+
+    //alert(a + ' * '+ b + '= '+ a*b)
+    //alert(a + ' / '+ b + '= '+ a/b)
 }
 
 numberA = 30
